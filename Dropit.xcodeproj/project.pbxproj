@@ -21,6 +21,7 @@
 		5EA896F619331DED003C6F08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA896D819331DED003C6F08 /* UIKit.framework */; };
 		5EA896FE19331DED003C6F08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EA896FC19331DED003C6F08 /* InfoPlist.strings */; };
 		5EA8970019331DED003C6F08 /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA896FF19331DED003C6F08 /* DropitTests.m */; };
+		5EA8970B193326A4003C6F08 /* DropitBehavoir.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA8970A193326A4003C6F08 /* DropitBehavoir.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5EA896FB19331DED003C6F08 /* DropitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropitTests-Info.plist"; sourceTree = "<group>"; };
 		5EA896FD19331DED003C6F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5EA896FF19331DED003C6F08 /* DropitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitTests.m; sourceTree = "<group>"; };
+		5EA89709193326A4003C6F08 /* DropitBehavoir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavoir.h; sourceTree = "<group>"; };
+		5EA8970A193326A4003C6F08 /* DropitBehavoir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavoir.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				5EA896E619331DED003C6F08 /* Main.storyboard */,
 				5EA896E919331DED003C6F08 /* ViewController.h */,
 				5EA896EA19331DED003C6F08 /* ViewController.m */,
+				5EA89709193326A4003C6F08 /* DropitBehavoir.h */,
+				5EA8970A193326A4003C6F08 /* DropitBehavoir.m */,
 				5EA896EC19331DED003C6F08 /* Images.xcassets */,
 				5EA896DB19331DED003C6F08 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EA896EB19331DED003C6F08 /* ViewController.m in Sources */,
+				5EA8970B193326A4003C6F08 /* DropitBehavoir.m in Sources */,
 				5EA896E519331DED003C6F08 /* AppDelegate.m in Sources */,
 				5EA896E119331DED003C6F08 /* main.m in Sources */,
 			);
